@@ -1,0 +1,9 @@
+keybinds {
+    normal {
+        unbind "Alt o"
+        unbind "Alt i"
+        unbind "Alt n"
+        unbind "Alt p"
+    }
+}
+
