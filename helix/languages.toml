@@ -720,6 +720,7 @@ comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "typescript-language-server" ]
 indent = { tab-width = 2, unit = "  " }
+auto-format = true
 
 [language.debugger]
 name = "node-debug2"
@@ -748,6 +749,7 @@ block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "typescript-language-server" ]
 indent = { tab-width = 2, unit = "  " }
 grammar = "javascript"
+auto-format = true
 
 [[language]]
 name = "typescript"

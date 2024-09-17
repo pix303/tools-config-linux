@@ -1,8 +1,7 @@
-theme="varua"
+theme="everforest_dark"
 
 [editor]
 line-number="relative"
-bufferline="multiple"
 true-color=true
 
 [editor.cursor-shape]
