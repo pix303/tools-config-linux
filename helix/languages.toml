@@ -719,7 +719,8 @@ shebangs = ["node"]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "typescript-language-server" ]
-indent = { tab-width = 2, unit = "  " }
+formatter = { command = 'npx', args = ["prettier", "--config", ".prettierrc.json", "--stdin-filepath", "file.js"] }
+indent = { tab-width = 4, unit = " " }
 auto-format = true
 
 [language.debugger]
@@ -747,7 +748,8 @@ file-types = ["jsx"]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "typescript-language-server" ]
-indent = { tab-width = 2, unit = "  " }
+formatter = { command = 'npx', args = ["prettier", "--config", ".prettierrc.json", "--stdin-filepath", "file.jsx"] }
+indent = { tab-width = 4, unit = " " }
 grammar = "javascript"
 auto-format = true
 
@@ -788,7 +790,7 @@ source = { git = "https://github.com/tree-sitter/tree-sitter-typescript", rev = 
 name = "css"
 scope = "source.css"
 injection-regex = "css"
-file-types = ["css", "scss"]
+file-types = ["css", "scss", "sass"]
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "vscode-css-language-server" ]
 auto-format = true
