@@ -793,8 +793,8 @@ injection-regex = "css"
 file-types = ["css", "scss", "sass"]
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "vscode-css-language-server" ]
-auto-format = true
-indent = { tab-width = 2, unit = "  " }
+auto-format = false
+indent = { tab-width = 4, unit = " " }
 
 [[grammar]]
 name = "css"
@@ -808,7 +808,7 @@ file-types = ["scss"]
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "vscode-css-language-server" ]
 auto-format = true
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = " " }
 
 [[grammar]]
 name = "scss"
