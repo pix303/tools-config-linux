@@ -4,6 +4,8 @@ keybinds {
         unbind "Alt i"
         unbind "Alt n"
         unbind "Alt p"
+        unbind "Alt j"
+        unbind "Alt k"
     }
 }
 
