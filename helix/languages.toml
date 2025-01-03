@@ -807,7 +807,7 @@ injection-regex = "scss"
 file-types = ["scss"]
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "vscode-css-language-server" ]
-auto-format = true
+auto-format = false
 indent = { tab-width = 4, unit = " " }
 
 [[grammar]]
