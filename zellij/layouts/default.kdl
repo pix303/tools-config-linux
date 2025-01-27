@@ -3,7 +3,7 @@ layout {
     //     plugin location="tab-bar"
     // }
         tab name="ide"{
-            pane name="ide" command="helix"
+            pane name="ide" command="hx"
         }
         tab name="tree"{
             pane name="tree" command="yazi"
