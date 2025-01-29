@@ -1,2 +1,9 @@
 [tools]
+direnv = "latest"
 go = "latest"
+helix = "latest"
+lazygit = "latest"
+node = "22"
+starship = "latest"
+yazi = "latest"
+zellij = "latest"
