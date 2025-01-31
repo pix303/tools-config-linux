@@ -1,6 +1,5 @@
 [tools]
 direnv = "latest"
-go = "latest"
 golangci-lint-langserver = "latest"
 golangci-lint = "latest"
 helix = "latest"
@@ -10,3 +9,4 @@ pnpm = "latest"
 starship = "latest"
 yazi = "latest"
 zellij = "latest"
+go = "latest"
