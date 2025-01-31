@@ -1,9 +1,12 @@
 [tools]
 direnv = "latest"
 go = "latest"
+golangci-lint-langserver = "latest"
+golangci-lint = "latest"
 helix = "latest"
 lazygit = "latest"
 node = "22"
+pnpm = "latest"
 starship = "latest"
 yazi = "latest"
 zellij = "latest"
