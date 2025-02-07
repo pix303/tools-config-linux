@@ -1,5 +1,7 @@
 [tools]
 direnv = "latest"
+fd = "latest"
+glow = "latest"
 go = "latest"
 golangci-lint-langserver = "latest"
 helix = "latest"
