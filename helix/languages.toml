@@ -1,4 +1,7 @@
 # in <config_dir>/helix/languages.toml
+[language-server.sql-lsp]
+command = "sql-language-server"
+args = ["up", "--method stdio"]
 
 [[language]]
 name = "typescript"
@@ -8,3 +11,8 @@ auto-format = true
 name = "tsx"
 auto-format = true
 
+[[language]]
+name = "sql"
+language-servers = [ "sql-lsp" ]
+formatter = [ "sql-formatter" ]
+auto-format = true
