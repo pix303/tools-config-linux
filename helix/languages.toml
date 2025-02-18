@@ -1,4 +1,23 @@
 # in <config_dir>/helix/languages.toml
+[language-server.sql-lsp]
+command = "sql-language-server"
+args = ["up", "--method stdio"]
+
+[language-server.vscode-css-language-server]
+command = "css-languageserver"
+args = ["--stdio"]
+config = { provideFormatter = true, css = { validate = { enable = true } } }
+
+[language-server.vscode-html-language-server]
+command = "html-languageserver"
+args = ["--stdio"]
+config = { provideFormatter = true, css = { validate = { enable = true } } }
+
+[language-server.vscode-json-language-server]
+command = "vscode-json-languageserver"
+args = ["--stdio"]
+config = { provideFormatter = true, css = { validate = { enable = true } } }
+
 
 [[language]]
 name = "typescript"
@@ -8,3 +27,8 @@ auto-format = true
 name = "tsx"
 auto-format = true
 
+[[language]]
+name = "sql"
+language-servers = [ "sql-lsp" ]
+formatter = [ "sql-formatter" ]
+auto-format = true
