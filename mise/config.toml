@@ -25,7 +25,8 @@ go = "latest"
 "npm:dockerfile-language-server-nodejs" = "latest"
 "npm:yaml-language-server" = "latest"
 "npm:vscode-json-languageserver" = "latest"
-"npm:vscode-html-languageservice" = "latest"
+"npm:vscode-css-languageserver-bin" = "latest"
+"npm:vscode-html-languageserver-bin" = "latest"
 
 [settings]
 experimental = true
