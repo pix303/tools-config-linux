@@ -3,6 +3,22 @@
 command = "sql-language-server"
 args = ["up", "--method stdio"]
 
+[language-server.vscode-css-language-server]
+command = "vscode-css-language-server"
+args = ["--stdio"]
+config = { provideFormatter = true, css = { validate = { enable = true } } }
+
+[language-server.vscode-html-language-server]
+command = "vscode-html-language-server"
+args = ["--stdio"]
+config = { provideFormatter = true  }
+
+[language-server.vscode-json-language-server]
+command = "vscode-json-language-server"
+args = ["--stdio"]
+config = { provideFormatter = true, css = { validate = { enable = true } } }
+
+
 [[language]]
 name = "typescript"
 auto-format = true

@@ -24,6 +24,8 @@ go = "latest"
 "npm:@microsoft/compose-language-service" = "latest"
 "npm:dockerfile-language-server-nodejs" = "latest"
 "npm:yaml-language-server" = "latest"
+"npm:vscode-json-languageserver" = "latest"
+"npm:vscode-html-languageservice" = "latest"
 
 [settings]
 experimental = true
