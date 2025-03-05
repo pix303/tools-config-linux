@@ -1,0 +1,25 @@
+layout {
+        tab name="workspace"{
+            pane name="workspace" command="hx"
+        }
+        tab name="ide-1"{
+            pane name="ide-1" command="yazi"
+        }
+        tab name="ide-2"{
+            pane name="ide-2" command="yazi"
+        }
+        tab name="ide-3"{
+            pane name="ide-3" command="yazi"
+        }
+        tab name="cmd2" split_direction="vertical"{
+            pane name="cmd1" 
+            pane name="cmd2" 
+        }
+        tab name="cmd2" split_direction="vertical"{
+            pane name="cmd3" 
+            pane name="cmd4" 
+        }
+        tab name="git"{
+            pane name="git" command="lazygit" 
+        }
+}
