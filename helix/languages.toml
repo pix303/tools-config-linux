@@ -1,4 +1,14 @@
 # in <config_dir>/helix/languages.toml
+[language-server.angular]
+command = "ngserver"
+args = [
+  "--stdio",
+  "--tsProbeLocations",
+  "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib",
+  "--ngProbeLocations",
+  "/home/paoloc/.local/share/mise/installs/npm-angular-language-server/latest/bin"
+  ]
+
 [language-server.sql-lsp]
 command = "sql-language-server"
 args = ["up", "--method stdio"]
@@ -20,7 +30,15 @@ config = { provideFormatter = true, css = { validate = { enable = true } } }
 
 
 [[language]]
+name = "html"
+# language-servers = [ "angular", "html-languageserver" ]
+language-servers = [  "html-languageserver" ]
+auto-format = true
+
+[[language]]
 name = "typescript"
+# language-servers = [ "angular", "typescript-language-server" ]
+language-servers = [  "typescript-language-server" ]
 auto-format = true
 
 [[language]]
