@@ -30,5 +30,3 @@ auto-format = true
 [[language]]
 name = "sql"
 language-servers = [ "sql-lsp" ]
-formatter = [ "sql-formatter" ]
-auto-format = true
