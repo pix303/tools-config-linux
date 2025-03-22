@@ -28,6 +28,10 @@ go = "latest"
 "npm:vscode-css-languageserver-bin" = "latest"
 "npm:vscode-html-languageserver-bin" = "latest"
 "npm:@angular/language-server" = "latest"
+jq = "latest"
+"npm:tldr" = "latest"
+rust = "latest"
+make = "latest"
 
 [settings]
 experimental = true
