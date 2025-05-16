@@ -28,6 +28,7 @@ go = "latest"
 "npm:vscode-css-languageserver-bin" = "latest"
 "npm:vscode-html-languageserver-bin" = "latest"
 "npm:@angular/language-server" = "latest"
+kubectl = "latest"
 
 [settings]
 experimental = true
