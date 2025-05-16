@@ -1,13 +1,16 @@
 # in <config_dir>/helix/languages.toml
-[language-server.angular]
-command = "ngserver"
-args = [
-  "--stdio",
-  "--tsProbeLocations",
-  "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib",
-  "--ngProbeLocations",
-  "/home/paoloc/.local/share/mise/installs/npm-angular-language-server/latest/bin"
-  ]
+# [language-server.angular]
+# command = "ngserver"
+# args = [
+#   "--stdio",
+#   "--tsProbeLocations",
+#   "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib",
+#   "--ngProbeLocations",
+#   "/home/paoloc/.local/share/mise/installs/npm-angular-language-server/latest/bin"
+#   ]
+
+[language-server.typescript-language-server.config.tsserver]
+path = "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib/node_modules/typescript/lib"
 
 [language-server.sql-lsp]
 command = "sql-language-server"
@@ -38,11 +41,15 @@ auto-format = true
 [[language]]
 name = "typescript"
 # language-servers = [ "angular", "typescript-language-server" ]
-language-servers = [  "typescript-language-server" ]
-auto-format = true
+language-servers = [ "typescript-language-server" ]
+language-id = "typescript"
+file-types = ["ts", "mts", "cts"]
+auto-format = false
 
 [[language]]
 name = "tsx"
+language-servers = [ "typescript-language-server" ]
+file-types = ["tsx"]
 auto-format = true
 
 [[language]]
