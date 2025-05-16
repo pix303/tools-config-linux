@@ -32,6 +32,10 @@ jq = "latest"
 "npm:tldr" = "latest"
 rust = "latest"
 make = "latest"
+"cargo:lsp-ai" = "latest"
+zig = "latest"
+zls = "latest"
+bat = "latest"
 
 [settings]
 experimental = true
