@@ -13,11 +13,20 @@ file_store = { }
 # type = "ollama"
 # model = "deepseek-coder"
 
+# [language-server.lsp-ai.config.models.model1]
+# type = "mistral_fim"
+# fim_endpoint = "https://api.mistral.ai/v1/fim/completions"
+# model = "codestral-latest"
+# auth_token_env_var_name = "MISTRAL_API_KEY"
+
 [language-server.lsp-ai.config.models.model1]
-type = "mistral_fim"
-fim_endpoint = "https://api.mistral.ai/v1/fim/completions"
-model = "codestral-latest"
-auth_token_env_var_name = "MISTRAL_API_KEY"
+type = "anthropic"
+# fim_endpoint = "https://chat.interlogica.lan:4443"
+chat_endpoint = "https://chat.interlogica.lan:4443"
+completation_endpoint = "https://chat.interlogica.lan:4443"
+model = "claude-3-7-sonnet-latest"
+auth_token_env_var_name = "IL_API_KEY"
+
 
 [language-server.lsp-ai.config.completion]
 model = "model1"
@@ -149,6 +158,6 @@ language-servers = [ "sql-lsp" ]
 
 [[language]]
 name = "go"
-# language-servers = [ "gopls" ]
-language-servers = [ "gopls", "lsp-ai" ]
+language-servers = [ "gopls" ]
+# language-servers = [ "gopls", "lsp-ai" ]
 # language-servers = [ "gopls", "golangci-lint-lsp", "lsp-ai" ]
