@@ -1,24 +1,9 @@
 layout {
-    // pane size=1 borderless=true {
-    //     plugin location="tab-bar"
-    // }
-        tab name="ide"{
-            pane name="ide" command="hx"
-        }
-        tab name="tree"{
-            pane name="tree" command="yazi"
-        }
-        tab name="run"{
-            pane name="run" 
-        }
-        tab name="cmd"{
-            pane name="cmd" 
-        }
-        tab name="git"{
-            pane name="git" command="lazygit" 
-        }
-    // }
-    // pane size=2 borderless=true {
-    //     plugin location="status-bar"
-    // }
+    pane size=1 borderless=true {
+        plugin location="tab-bar"
+    }
+            pane name="main"
+    pane size=2 borderless=true {
+        plugin location="status-bar"
+    }
 }
