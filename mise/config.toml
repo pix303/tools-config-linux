@@ -37,6 +37,7 @@ zls = "latest"
 bat = "latest"
 "npm:vscode-css-languageservice" = "latest"
 "go:github.com/mhersson/mpls" = "latest"
+difftastic = "latest"
 
 [settings]
-experimental = true
+experimental = false
