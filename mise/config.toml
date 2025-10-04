@@ -14,7 +14,6 @@ go = "latest"
 "go:github.com/go-delve/delve/cmd/dlv" = "latest"
 "go:github.com/pressly/goose/v3/cmd/goose" = "latest"
 "go:mvdan.cc/gofumpt" = "latest"
-"go:golang.org/x/tools/gopls" = "latest"
 "npm:typescript-language-server" = "latest"
 "npm:biome" = "latest"
 "npm:sql-language-server" = "latest"
@@ -33,11 +32,13 @@ rust = "latest"
 make = "latest"
 "cargo:lsp-ai" = "latest"
 zig = "latest"
-zls = "latest"
 bat = "latest"
 "npm:vscode-css-languageservice" = "latest"
 "go:github.com/mhersson/mpls" = "latest"
 difftastic = "latest"
+"go:github.com/antonmedv/fx" = "latest"
+aqua = "latest"
+zls = "latest"
 
 [settings]
-experimental = false
+experimental = true
