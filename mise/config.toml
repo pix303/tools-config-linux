@@ -39,6 +39,7 @@ difftastic = "latest"
 "go:github.com/antonmedv/fx" = "latest"
 aqua = "latest"
 zls = "latest"
+"go:golang.org/x/tools/gopls" = "latest"
 
 [settings]
 experimental = true
