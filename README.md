@@ -2,7 +2,8 @@
 
 Tools used in linux distro in wsl2 managed by [Mise En Place](https://mise.jdx.dev)
 
-For install LSPs for html, js, ts, css, json or other js stuff don't use Mise En Place but `pnpm i -g`
+For install LSPs for html, js, ts, css, json or other js stuff don't use Mise En Place but `pnpm i -g`.
+
 The packages managed by pnpm are:
 - tailwindcss-language-server 0.0.1
 - typescript-language-server 5.1.2
