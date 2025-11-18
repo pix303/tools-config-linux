@@ -1,48 +1,38 @@
 [tools]
-fd = "latest"
-glow = "latest"
-golangci-lint-langserver = "latest"
-golangci-lint = "latest"
+### most used
 helix = "latest"
 lazygit = "latest"
-node = "22"
-pnpm = "latest"
-starship = "latest"
 yazi = "latest"
 zellij = "latest"
-go = "latest"
-"go:github.com/go-delve/delve/cmd/dlv" = "latest"
-"go:github.com/pressly/goose/v3/cmd/goose" = "latest"
-"go:mvdan.cc/gofumpt" = "latest"
-"npm:typescript-language-server" = "latest"
-"npm:biome" = "latest"
-"npm:sql-language-server" = "latest"
-"npm:sql-formatter" = "latest"
-"npm:prettier" = "latest"
-"npm:typescript" = "latest"
-"npm:@microsoft/compose-language-service" = "latest"
-"npm:dockerfile-language-server-nodejs" = "latest"
-"npm:yaml-language-server" = "latest"
-"npm:vscode-json-languageserver" = "latest"
-"npm:@angular/language-server" = "latest"
-kubectl = "latest"
-jq = "latest"
-"npm:tldr" = "latest"
-rust = "latest"
-make = "latest"
-"cargo:lsp-ai" = "latest"
-zig = "latest"
 bat = "latest"
-"go:github.com/mhersson/mpls" = "latest"
+
+### useful
 difftastic = "latest"
-aqua = "latest"
-zls = "latest"
-"go:golang.org/x/tools/gopls" = "latest"
-"npm:@tailwindcss/language-server" = "latest"
-"npm:@angular/cli" = "latest"
-"ubi:kristoff-it/superhtml" = "latest"
-"npm:vscode-html-languageservice" = "latest"
+fd = "latest"
+glow = "latest"
+starship = "latest"
+jq = "latest"
+make = "latest"
 aws-cli = "latest"
+
+### GO
+go = "latest"
+"go:golang.org/x/tools/gopls" = "latest"
+golangci-lint-langserver = "latest"
+golangci-lint = "latest"
+"go:github.com/mhersson/mpls" = "latest"
+
+### Nodejs
+node = "latest"
+pnpm = "latest"
+
+### rust
+rust = "latest"
+"cargo:lsp-ai" = "latest"
+
+### zig
+zig = "latest"
+zls = "latest"
 
 [settings]
 experimental = true
