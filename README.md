@@ -1,6 +1,6 @@
 # .config folder for linux
 
-Tools used in linux distro in wsl2 managed by (Mise En Place)[https://mise.jdx.dev]
+Tools used in linux distro in wsl2 managed by [Mise En Place](https://mise.jdx.dev)
 
 For install LSPs for html, js, ts, css, json don't use Mise En Place but pnpm with this package 
 `pnpm i -g vscode-langservers-extracted`
