@@ -42,16 +42,15 @@ end = "<fim_middle>"
 ###################################
 ## Configuration for lsp-angular ##
 ###################################
-
-[language-server.angular]
-command = "ngserver"
-args = [
-  "--stdio",
-  "--tsProbeLocations",
-  "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib",
-  "--ngProbeLocations",
-  "/home/paoloc/.local/share/mise/installs/npm-angular-language-server/latest/bin"
-  ]
+# [language-server.angular]
+# command = "ngserver"
+# args = [
+#   "--stdio",
+#   "--tsProbeLocations",
+#   "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib",
+#   "--ngProbeLocations",
+#   "/home/paoloc/.local/share/mise/installs/npm-angular-language-server/latest/bin"
+#   ]
 
 #######################################################
 ## Configuration for vscode-html/css/ts lsp with mise##
@@ -61,11 +60,17 @@ path = "/home/paoloc/.local/share/mise/installs/npm-typescript/latest/lib/node_m
 [language-server.typescript-language-server.config.css-languageserver]
 path = "/home/paoloc/.local/share/mise/installs/npm-vscode-css-languageserver-bin/latest/lib"
 
-
+[language-server.tailwindcss-ls]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
 
 [language-server.mpls]
 command = "mpls"
 args = ["--dark-mode", "--enable-emoji"]
+
+[language-server.superhtml]
+command = "superhtml"
+args = ["lsp","--syntax-only"]
 
 [[language]]
 name = "go"
@@ -77,5 +82,15 @@ language-servers = [ "marksman", "markdown-oxide", "mpls" ]
 
 [[language]]
 name = "typescript"
-language-servers = [ "typescript-language-server", "lsp-ai" ]
+language-servers = [ "typescript-language-server", "lsp-ai", "tailwindcss-ls" ]
+auto-format = true
+
+[[language]]
+name = "tsx"
+language-servers = [ "typescript-language-server", "lsp-ai", "tailwindcss-ls" ]
+auto-format = true
+
+[[language]]
+name = "html"
+language-servers = [ "vscode-html-language-server",  "superhtml", "lsp-ai", "tailwindcss-ls"  ]
 auto-format = true
