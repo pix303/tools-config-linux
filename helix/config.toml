@@ -1,5 +1,4 @@
-# theme="everforest_dark"
-theme="doom-one"
+theme="catppuccin_macchiato"
 
 [editor]
 line-number="relative"

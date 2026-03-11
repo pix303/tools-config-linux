@@ -1,9 +1,7 @@
 keybinds {
     normal {
         unbind "Alt o"
-        unbind "Ctrl o"
         unbind "Alt i"
-        unbind "Ctrl i"
         unbind "Alt n"
         unbind "Alt p"
         unbind "Alt j"

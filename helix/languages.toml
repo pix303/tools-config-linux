@@ -79,3 +79,6 @@ language-servers = [ "marksman", "markdown-oxide", "mpls" ]
 name = "typescript"
 language-servers = [ "typescript-language-server", "lsp-ai" ]
 auto-format = true
+
+[[json]]
+auto-format = true
